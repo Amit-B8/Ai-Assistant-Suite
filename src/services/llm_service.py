@@ -16,7 +16,8 @@ def generate_response(prompt: str):
     payload = {
         "model": MODEL,
         "prompt": prompt,
-        "stream": False  # We'll set this to True later when we want to show it typing
+         # Set this to True later when we want to show it typing
+        "stream": False 
     }
     
     try:
